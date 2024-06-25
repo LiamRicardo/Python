@@ -1,32 +1,32 @@
-print("Ola mundo")
+#print("Ola mundo")
 
 
-print("Ese e o Python")
+#print("Ese e o Python")
 
-print("Primeiro estamos practocando o comando Print")
+#print("Primeiro estamos practocando o comando Print")
 
-print("Este comadno Printa 3 linhas de texto")
+#print("Este comadno Printa 3 linhas de texto")
 
 
-print("Liam Ricardo Rodriguez legra")
-print("Centenario")
-print(18)
+##print("Liam Ricardo Rodriguez legra")
+#print("Centenario")
+#print(18)
 #meu primeiro Script Python
 
-nome = input("Digite seu nome")
-print("Ola," + nome)
-nome = input("Digite seu nome")
-print("Ola," + nome)
+#nomex = input("Digite seu nome")
+#print("Ola," + nomex)
+#nomex = input("Digite seu nome")
+#print("Ola," + nomex)
 
 #string false
-resultado2 = 13
-resultado = 25
+#resultado2 = 13
+#resultado = 25
 
 
-print(f"O resultado da conta e: {resultado},e a conta de dosi valores {resultado2}" )
+#print(f"O resultado da conta e: {resultado},e a conta de dosi valores {resultado2}" )
 
 
-nome = "Tim tester"
+nomex = "Liam"
 idade = 18
 skill1 = "python"
 level1 = "Iniciante"
@@ -37,4 +37,22 @@ level3 = "pleno"
 baixo = 2000
 alto = 3000
 
+print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1},{level1},{skill2},{level2},{skill3} e {level3}.Procuro um emprego com um salario de {baixo} a {alto} euros por mes")
 
+
+
+
+
+
+#ACTIVIDADE 1
+
+nome = input("Digite seu Nome")
+print("Nome propio:," + nome)
+apelido = input("Digite seu Apelido")
+print("Apelido:," + apelido)
+endereço = input("Digite seu Endereço")
+print("Endereço:," + endereço)
+postal = input("Digite seu Codigo Postal")
+print("Ciudade e Codigo Postal:," + postal)
+rua = input("Digite seu localida oseja a Rua")
+print(f"Localidade:, {rua},Endereço {endereço},codigo postal {postal}")
