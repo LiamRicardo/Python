@@ -125,3 +125,20 @@ print(f"{numero} veses 5 e {inc}")
 nome = input("Que e seu nome")
 ano = int(input("Que ano voce nasceu? "))
 print(f"Ao fim de 2024 voce tera:{2024 - ano}")
+
+
+#ACTIVIDADE 8
+preço = float(input("Coloque o preço:"))
+desconto = float(input("Coloque o desconto:"))
+print(f"Opreço ao pagar: {preço - desconto}")
+
+#ACTIVIDADE 9
+preço = float(input("Coloque o valor da Conta: R$"))
+desconto = float(input("prcentual de gorjeta: %"))
+print(f"A conta ao pagar: {preço + desconto}")
+
+
+#ACTIVIDADE 10
+reais = float(input("Coloque o valor dos reais: R$"))
+dollars = float(input("Convertido en dollares: $"))
+print(f"")
