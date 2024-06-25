@@ -56,3 +56,11 @@ postal = input("Digite seu Codigo Postal")
 print("Ciudade e Codigo Postal:," + postal)
 rua = input("Digite seu localida oseja a Rua")
 print(f"Localidade:, {rua},Endereço {endereço},codigo postal {postal}")
+
+
+
+#ACTIVIDADE 2
+
+nome1 = input("Po favor dijite seu Nome:")
+ano = input("Por favor dijite um ano:")
+print(f"{nome1} é um valente calavaira,nascida no ano de {ano}.Certa manhã,{nome1} acabou com um barulho terrivel:um dragão se aproximava da aldeia.Somente {nome1} poderia salvar os moradores da aldeia")
