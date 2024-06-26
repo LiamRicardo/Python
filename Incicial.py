@@ -165,3 +165,12 @@ print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1}
 #tempo = int(input("Coloque o tempo em anos: TEMPO:"))
 #total = juros = capital * tempo
 #print(f"O resultado é: {total}")
+
+
+
+#ACTIVIDADE 12
+uno = int(input("Coloque o primer numero:"))
+dos = int(input("Coloque o segundo numero:"))
+tres = int(input("Coloque o tercero numero:"))
+total = uno + dos + tres / 3
+print(f"O Total som:{total}")
