@@ -140,5 +140,6 @@ print(f"A conta ao pagar: {preço + desconto}")
 
 #ACTIVIDADE 10
 reais = float(input("Coloque o valor dos reais: R$"))
-dollars = float(input("Convertido en dollares: $"))
-print(f"")
+cambio_dollars = 5.48
+total = reais / cambio_dollars
+print(f"Seus reais conbertidos en dollares son: ${total}")
