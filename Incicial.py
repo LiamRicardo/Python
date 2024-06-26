@@ -169,8 +169,27 @@ print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1}
 
 
 #ACTIVIDADE 12
-uno = int(input("Coloque o primer numero:"))
-dos = int(input("Coloque o segundo numero:"))
-tres = int(input("Coloque o tercero numero:"))
-total = uno + dos + tres / 3
-print(f"O Total som:{total}")
+#uno = int(input("Coloque o primer numero:"))
+#dos = int(input("Coloque o segundo numero:"))
+#tres = int(input("Coloque o tercero numero:"))
+#total = uno + dos + tres / 3
+#print(f"O Total som:{total}")
+
+
+
+#ACTIVIDADE 13
+#altuara = float(input("Coloque a Altura:"))
+#largura = float(input("Coloque a larguara:"))
+#total1 = largura * altuara
+#total2 = 2 * (largura + altuara)
+#print(f"Os resulatados son {total1} e {total2}")
+
+
+#ACTIVIDADE 14
+#C=float(input("Coloca los grados Ceuses para Transformar en Farenhet: C"))
+#total = F = C*9/5+32
+#print(f"O Resulatado es : F{total}")
+
+
+#ACTIVIDADE 15
+#TA NO TEAMS
