@@ -193,3 +193,5 @@ print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1}
 
 #ACTIVIDADE 15
 #TA NO TEAMS
+
+
