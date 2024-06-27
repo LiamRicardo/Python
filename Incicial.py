@@ -203,3 +203,19 @@ print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1}
 
 #if numero >= 0:
 #    print(f"{numero}")
+
+#ACTIVIDADE 17
+nome = input("Coloque seu nome:")
+usuario = "Jerry"
+
+
+if nome == usuario:
+    print("E o Jerry")
+
+if nome > usuario:
+    por = float(input("Coloque o numero das Porçoes: R$"))
+    print(f"Ese e o valor ao ser pago: R${por * 5.90}")
+
+if nome < usuario:
+    por = float(input("Coloque o numero das Porçoes: R$"))
+    print(f"Ese e o valor ao ser pago: R${por * 5.90}") 
