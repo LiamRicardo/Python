@@ -195,3 +195,11 @@ print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1}
 #TA NO TEAMS
 
 
+#ACTIVIDADE 16
+#numero = int(input("Escrib en numero enteiro:"))
+
+#if numero < 0:
+#    print(f"{numero * -1}")
+
+#if numero >= 0:
+#    print(f"{numero}")

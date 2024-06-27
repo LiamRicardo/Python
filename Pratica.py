@@ -18,3 +18,9 @@
 
 #if numero == 0:
 #    print("O numero e 0")
+
+#PRATICA 1
+numero = int(input("Digite um numero enteiro:"))
+
+if numero == 1984:
+    print(f"{numero} Orwell")
