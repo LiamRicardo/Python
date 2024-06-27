@@ -205,17 +205,56 @@ print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1}
 #    print(f"{numero}")
 
 #ACTIVIDADE 17
-nome = input("Coloque seu nome:")
-usuario = "Jerry"
+#nome = input("Coloque seu nome:")
+#usuario = "Jerry"
 
 
-if nome == usuario:
-    print("E o Jerry")
 
-if nome > usuario:
-    por = float(input("Coloque o numero das Porçoes: R$"))
-    print(f"Ese e o valor ao ser pago: R${por * 5.90}")
 
-if nome < usuario:
-    por = float(input("Coloque o numero das Porçoes: R$"))
-    print(f"Ese e o valor ao ser pago: R${por * 5.90}") 
+#if nome == usuario:
+#    print("E o Jerry")
+
+#if nome > usuario:
+#    por = float(input("Coloque o numero das Porçoes: R$"))
+#    print(f"Ese e o valor ao ser pago: R${por * 5.90}")
+
+#if nome < usuario:
+#    por = float(input("Coloque o numero das Porçoes: R$"))
+#    print(f"Ese e o valor ao ser pago: R${por * 5.90}") 
+
+
+
+#ATIVIDDE 18
+
+nome = int(input("Digete seu numero aqui :"))
+
+if nome >= 1000:
+    print("Gloria a Deus")
+
+if nome < 1000:
+    print("Ese numero e menor que 1000 Fodace")
+
+if nome < 100:
+    print("E menor que 100")
+
+if nome < 10:
+    print("E menor que 10")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#ATIVIDDE 19
+
+nome = int(input("Digete seu numero aqui :"))
+magnitude = abs(nome)
+print(f"A magnitude é {magnitude}")
