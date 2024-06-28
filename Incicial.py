@@ -226,35 +226,130 @@ print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1}
 
 #ATIVIDDE 18
 
-nome = int(input("Digete seu numero aqui :"))
+#nome = int(input("Digete seu numero aqui :"))
 
-if nome >= 1000:
-    print("Gloria a Deus")
+#if nome >= 1000:
+ #   print("Gloria a Deus")
 
-if nome < 1000:
-    print("Ese numero e menor que 1000 Fodace")
+#if nome < 1000:
+#    print("Ese numero e menor que 1000 Fodace")
 
-if nome < 100:
-    print("E menor que 100")
+#if nome < 100:
+#    print("E menor que 100")
 
-if nome < 10:
-    print("E menor que 10")
-
-
+#if nome < 10:
+#    print("E menor que 10")
 
 
 
 
 
+#ATIVIDADE 19
+
+#nome = input("Digete seu nome aqui :")
+#cidade = input("Digete seu Cidade aqui :")
+#estado = input("Digete seu Estado aqui :")
+#cep = input("Digete seu CEP aqui :")
+
+#usuario = "Liam"
+
+#if nome == usuario:
+#    print(f"[Nome:{nome}][Cidade:{cidade}][Estado:{estado}][CEP:{cep}]")
+
+#else :
+#    print(f"Ese usuario no existe")suma = "+"
+#resta = "-"
+#multiplicar = "*"
+
+
+
+#ACTIVIDADE 20
+#numero1 = int(input("Digete o primre numero:"))
+
+#numero2 = int(input("Digete o segundo numero:"))
+
+#operaçaon = str(input("Digite una operaçao:"))
+
+
+#if  operaçaon == "+":
+#    print(f"Sumar:{numero1 + numero2}")
+
+#if  operaçaon == "-":
+#    print(f"Restar:{numero1 - numero2}")
+
+#if  operaçaon == "*":
+#    print(f"Multiplicar:{numero1 * numero2}")
+
+#if  operaçaon == "/":
+#    print(f"Dividir:{numero1 / numero2}")
+
+
+#ACTIVIDADE 21
+#F=float(input("Coloca los grados Farenhet para Transformar en Ceuses: F"))
+#total = C = F/9*5+32
+
+#print(f"O Resulatado es : C{total}")
 
 
 
 
+#ACTIVIDADE 22
+
+#salarioporhora = float(input("Digite seu salario por hora:"))
+#horastrabalhadas = int(input("Digite seus horas trabhaladas:"))
+#diasaosemana = int(input("Digite os dias trabhaladas:"))
+
+#if diasaosemana >= 1:
+#    print(f"O salario de Sabado é:{salarioporhora * horastrabalhadas}")
+
+#if diasaosemana >= 2:
+#    print(f"O salario de segunda feira é:{salarioporhora * horastrabalhadas}")
+
+#if diasaosemana >= 3:
+#    print(f"O salario de terça feira é:{salarioporhora * horastrabalhadas}")
+
+#if diasaosemana >= 4:
+#    print(f"O salario de cuarta feira é:{salarioporhora * horastrabalhadas}")
+
+#if diasaosemana >= 5:
+#    print(f"O salario de quinta feira é:{salarioporhora * horastrabalhadas}")
+
+#if diasaosemana >= 6:
+#    print(f"O salario de sexta feira é:{salarioporhora * horastrabalhadas}")
+
+#if diasaosemana >= 7:
+#    print(f"O salario de Domingo é:{(salarioporhora * horastrabalhadas)*2}")
 
 
 
-#ATIVIDDE 19
 
-nome = int(input("Digete seu numero aqui :"))
-magnitude = abs(nome)
-print(f"A magnitude é {magnitude}")
+#ACTIVIDADE 23
+#cartaon = int(input("Digite ses puntos de cartaon:"))
+
+#if cartaon < 100:
+#    print("O bounos e de 10%")
+
+#else :
+#    print("O bonus e de 15%")
+
+
+
+#ACTIVIDADE 24
+tempo = float(input("Que e previcion de tempo para amanha:"))
+chover = str(input("Vai chover (sim/não):"))
+
+
+if tempo >= 20:
+    print(f"Use Jenas e camiseta")
+
+if tempo <= 10:
+    print(f"Use Jenas e camiseta mais tambem um abrigo")
+
+if tempo <= 5:
+    print(f"Bai tener que usar muito abrigo")
+
+if chover == "sim":
+   print("tem que levar paraguas e uma chuvasquera")
+
+if chover == "não":
+    print("No vai chover")
