@@ -20,7 +20,21 @@
 #    print("O numero e 0")
 
 #PRATICA 1
-numero = int(input("Digite um numero enteiro:"))
+#numero = int(input("Digite um numero enteiro:"))
 
-if numero == 1984:
-    print(f"{numero} Orwell")
+#if numero == 1984:
+#    print(f"{numero} Orwell")
+
+
+#LOGICA
+numero = int(input("Enrte com um numeros: "))
+if numero >= 5 and numero > 8:
+    print("O numero nao esta entre 5 e 8")
+
+
+numero = int(input("Enrte com um numeros: "))
+if numero >= 5 or numero > 8:
+    print("O numero nao esta entre 5 e 8")
+
+
+    

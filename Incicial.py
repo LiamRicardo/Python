@@ -366,3 +366,96 @@ print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1}
 #numero1 = int(input("Digite a segundo numero:"))
 
 #if 
+
+
+#ACTIVIDADE 28
+#edade = int(input("Digite seu idade para vorta:"))
+
+
+#if idade >=16:
+#    print("Pudes botar")
+
+#else:
+#    print("No puedes votar")
+
+
+#ACTIVIDADE 29
+digite_unnumeromes = int(input("Digite un nume or de mes:"))
+
+
+
+if digite_unnumeromes == 1:
+    print("Enero")
+
+if digite_unnumeromes == 2:
+    print("Fevereiro")
+
+if digite_unnumeromes == 3:
+    print("Março")
+
+if digite_unnumeromes == 4:
+    print("Abril")
+
+if digite_unnumeromes == 5:
+    print("Maio")
+
+if digite_unnumeromes == 6:
+    print("Junho")
+
+if digite_unnumeromes == 7:
+    print("Julho")
+
+if digite_unnumeromes == 8:
+    print("Agosto")
+
+if digite_unnumeromes == 9:
+    print("Setembro")
+
+if digite_unnumeromes == 10:
+    print("Outubro")
+
+if digite_unnumeromes == 11:
+    print("Novembro")
+
+if digite_unnumeromes == 12:
+    print("Dezembro")
+
+else:
+    print("Invaleid")
+
+
+
+#ACTIVIDADE 30
+#digi1 = int(input("Digite nome:"))
+#digi2 = int(input("Digite edade:"))
+#digi3 = int(input("Digite nome:"))
+#digi4 = int(input("Digite edade:"))
+
+
+#ACTIVIDADE 33
+#idad = input("Dime tu edad:")
+
+#if idad < 5 or idad < 0:
+#    print("Esa não e uma idade real")
+
+#elif idad >5 :
+#    print("Que desa amo")
+
+#else:
+#    print("MAMAM WEEVOOOO")
+
+
+#ACTIVIDADE 34
+#nome = str(input("Dime tu nombre de usuario:"))
+
+#if nome == "Zezinho":
+#    print("Ou sobrino do PAto Donal")
+
+#elif nome == "Huguinho":
+#    print("Ou sobrino do PAto Donal")
+
+#elif nome == "Luisinho":
+#    print("Ou sobrino do PAto Donal")
+
+#elif nome == "Chiquinho" or nome == "Francisquiho":
+#    print("OS sobrinos do Mycky Mause")
