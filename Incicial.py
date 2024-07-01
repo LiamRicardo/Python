@@ -335,21 +335,34 @@ print(f"Meu nome e {nomex},tenho {idade} anos  minhas habilibdades são {skill1}
 
 
 #ACTIVIDADE 24
-tempo = float(input("Que e previcion de tempo para amanha:"))
-chover = str(input("Vai chover (sim/não):"))
+#tempo = float(input("Que e previcion de tempo para amanha:"))
+#chover = str(input("Vai chover (sim/não):"))
 
 
-if tempo >= 20:
-    print(f"Use Jenas e camiseta")
+#if tempo >= 20:
+#    print(f"Use Jenas e camiseta")
 
-if tempo <= 10:
-    print(f"Use Jenas e camiseta mais tambem um abrigo")
+#if tempo <= 10:
+#    print(f"Use Jenas e camiseta mais tambem um abrigo")
 
-if tempo <= 5:
-    print(f"Bai tener que usar muito abrigo")
+#if tempo <= 5:
+#    print(f"Bai tener que usar muito abrigo")
 
-if chover == "sim":
-   print("tem que levar paraguas e uma chuvasquera")
+#if chover == "sim":
+#   print("tem que levar paraguas e uma chuvasquera")
 
-if chover == "não":
-    print("No vai chover")
+#if chover == "não":
+#    print("No vai chover")
+
+
+
+#ACTIVIDADE 25
+#NAH
+
+
+
+#ACTIVIDADE 26
+#numero = int(input("Digite a primer numero:"))
+#numero1 = int(input("Digite a segundo numero:"))
+
+#if 
