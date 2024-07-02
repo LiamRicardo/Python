@@ -1,3 +1,0 @@
-git add .
-git commit -m "vercion "
-git push origin main

@@ -37,4 +37,13 @@ if numero >= 5 or numero > 8:
     print("O numero nao esta entre 5 e 8")
 
 
-    
+#Nuevo
+
+while True:
+    codigo = input("Enter con numero : ou ditio  -1 para parar:")
+    if codigo == "1234":
+        break
+    print("Eraado")
+
+print("Pina correcto")
+

@@ -459,3 +459,173 @@ else:
 
 #elif nome == "Chiquinho" or nome == "Francisquiho":
 #    print("OS sobrinos do Mycky Mause")
+
+
+
+#ACTIVIDADE 35
+nomezinho = input("Digite o nome do aluno: ")
+pontos = int(input("Digite a primeira nota: "))
+ 
+if pontos < 0:
+ print("impossivel")
+elif pontos > 49:
+ print("Reprovado")
+elif pontos > 59:
+ print("1")
+elif pontos > 69:
+ print("2")
+elif pontos > 79:
+   print("3")
+elif pontos > 89:
+   print("4")
+elif pontos > 99:
+   print("5")
+else:
+   print("impossivel")
+
+#ACTIVIDADE 36
+numero = int(input("Dame un nuemro entero:"))
+
+if numero % 3 == 0:
+   print("Fizz")
+
+elif numero % 5 == 0:
+   print("Buzz")
+
+elif numero % 5 == 0 or numero % 3 == 0:
+   print("FizzBuzz")
+
+#ACTIVIDADE 37
+
+numero = int(input("Dame un nuemro entero:"))
+
+if numero % 100 == 0:
+   print("Fizz")
+
+elif numero % 400 == 0:
+   print("Buzz")
+
+elif numero % 100 == 0 or numero % 400 == 0:
+   print("FizzBuzz")
+
+
+
+
+
+#ACTIVIDADE 38
+while True:
+    print("Hola:")
+    codigo = input("Voce quer continuar:")
+    if codigo == "não":
+        break
+    print("Okey")
+
+print("Okey Ate a proxima")
+
+
+
+#ACTIVIDADE 39
+while True:
+   
+    numero = int(input("Digite un numoer: "))
+
+    if numero < 0:  
+     print("Numero Invalido")
+
+ 
+    elif numero > 0:
+       from math import sqrt
+       print(sqrt(numero))
+
+    elif numero == 0:
+       break
+
+
+
+#ACTIVIDAE 40
+numero = 5
+
+print("Contando")
+
+while True:
+   
+   print(numero)
+   
+   numero = numero - 1
+   
+   if numero < 0:
+      break
+
+print("FAIL")
+
+
+
+#ACTIVIDADE 41
+
+sena = input("Digte una senha:")
+while True:
+  sena2 = input("Digite sua senha novamente:")
+  if sena == sena2:
+     break
+  print("Icorrecto")
+  
+print("Bien")
+
+
+
+
+#EJEMPLO 
+tentativas = 0
+while True:
+   codigo = input("Porfavor didite seu PIN:")
+   tentativas += 1
+   if codigo == "12345":
+      sueso = True
+      break
+   if tentativas == 3:
+     sueso = False
+     break
+   print("Incorrecto volver")
+
+if sueso:
+   print("PIN Correcto Inserido")
+else:
+   print("Muitas tentativas")
+
+
+
+#ACTIVIDADE 42
+tentativas = 0
+while True:
+   codigo = input("Porfavor didite seu PIN:")
+   tentativas += 1
+   if codigo == "4321":
+      sueso = True
+      break
+   if tentativas == 3:
+     sueso = False
+   print("Incorrecto volver")
+
+if sueso:
+   print("PIN Correcto Inserido")
+else:
+   print("Muitas tentativas")
+
+
+
+
+
+
+
+
+   
+
+       
+
+    
+
+
+
+
+
+   
