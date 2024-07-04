@@ -1,20 +1,9 @@
-
-
-
-
-#ACTIVIDADE 42
-tentativas = 0
+soma = 0
 while True:
-   codigo = input("Porfavor didite seu PIN:")
-   tentativas += 1
-   if codigo == "4321":
-      sueso = True
-      break
-   if tentativas == 3:
-     sueso = False
-   print("Incorrecto volver")
+   numero = int(input("Digite un numero auqi: "))
+   soma += numero
 
-if sueso:
-   print("PIN Correcto Inserido")
-else:
-   print("Muitas tentativas")
+   if soma >= 100:
+      break
+
+print("Mostrar la suma final:",soma)

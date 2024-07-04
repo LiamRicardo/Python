@@ -613,6 +613,90 @@ else:
 
 
 
+#ACTIVIDADE 46
+while True:
+    numero = int(input("Ingresa un número: "))
+    contador = 0
+    
+    while contador <= numero:
+        print(contador)
+        contador += 1
+
+    respuesta = input("¿Quieres ingresar otro número? (sí/no): ").strip().lower()
+    
+    if respuesta == 'no':
+        break
+
+
+
+
+
+#AcTIVIDADE 47
+while True:
+    numero = int(input("Ingresa un número: "))
+    contador = 0
+
+    while contador <= numero:
+        print(contador)
+        contador = contador * 2 if contador > 0 else 1
+
+    respuesta = input("¿Quieres ingresar otro número? (sí/no): ").strip().lower()
+    
+    if respuesta == 'no':
+        break
+    
+
+
+#ACTIVIDADE 48
+
+while True:
+    numero = int(input("Ingresa un número: "))
+    base = int(input("Coloque el multiplicador aqui: "))
+    contador = 0
+
+    while contador <= numero:
+        print(contador)
+        contador = contador * base if contador > 0 else 1
+
+    respuesta = input("¿Quieres ingresar otro número? (sí/no): ").strip().lower()
+    
+    if respuesta == 'no':
+        break
+    
+
+
+
+
+
+
+
+
+#ACTIVIDADE 50
+
+soma = 0
+while True:
+   numero = int(input("Digite un numero auqi: "))
+   soma += numero
+
+   if soma == 100:
+      break
+
+print("Mostrar la suma final:",soma)
+
+
+
+#ACTIVIDADE 51
+
+
+   
+      
+
+
+
+
+
+
+
 
 
 
