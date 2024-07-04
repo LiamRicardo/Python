@@ -1,9 +1,8 @@
-soma = 0
 while True:
-   numero = int(input("Digite un numero auqi: "))
-   soma += numero
-
-   if soma >= 100:
-      break
-
-print("Mostrar la suma final:",soma)
+    user_input = input("Introduce una palabra o número (máximo 8 caracteres): ")
+    if len(user_input) <= 8:
+        print(f"Has introducido: {user_input}")
+        break
+    else:
+        print("Error: El input excede los 8 caracteres. Inténtalo de nuevo.")
+        
