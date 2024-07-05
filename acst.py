@@ -15,3 +15,8 @@ import random
 
 numeros_secrteo = random.randint(1,100)
 print(numeros_secrteo)
+
+
+
+
+

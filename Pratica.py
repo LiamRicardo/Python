@@ -47,3 +47,12 @@ while True:
 
 print("Pina correcto")
 
+
+
+#Nuevo1
+#palabra1 = str(input("Escribe un aplavra:"))
+#palabra2 = str(input("Escribe a segunda aplavra:"))
+#while True:
+    
+     #if palabra1 == palabra2:
+         

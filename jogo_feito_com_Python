@@ -1,8 +1,37 @@
 import time
 
+class Jugador:
+    def __init__(self, nombre, raza):
+        self.nombre = nombre
+        self.raza = raza
+        self.nivel = 1
+        self.experiencia = 0
+        self.inventario = []
+    
+    def mostrar_estado(self):
+        print(f"\nEstado del Jugador: {self.nombre}")
+        print(f"Raza: {self.raza}")
+        print(f"Nivel: {self.nivel}")
+        print(f"Experiencia: {self.experiencia}")
+        print(f"Inventario: {', '.join(self.inventario) if self.inventario else 'Vacío'}\n")
+
+    def ganar_experiencia(self, cantidad):
+        self.experiencia += cantidad
+        if self.experiencia >= 100:
+            self.nivel += 1
+            self.experiencia = 0
+            print(f"¡Felicidades! Has subido al nivel {self.nivel}.")
+
 def historia_aventura():
     print("¡Bienvenido a la aventura interactiva!")
     time.sleep(2)
+    
+    nombre = input("¿Cuál es tu nombre?: ")
+    raza = input("Elige tu raza (humano/elfo/enano/orco): ").lower()
+    
+    jugador = Jugador(nombre, raza)
+    jugador.mostrar_estado()
+    
     print("Te encuentras en medio de un bosque oscuro y misterioso.")
     time.sleep(2)
     print("Frente a ti, ves dos caminos: uno a la izquierda y otro a la derecha.")
@@ -32,6 +61,8 @@ def historia_aventura():
                 print("Decidiste entrar a la cueva.")
                 time.sleep(2)
                 print("Dentro encuentras un tesoro brillante y escapas con éxito.")
+                jugador.inventario.append("Tesoro Brillante")
+                jugador.ganar_experiencia(50)
                 time.sleep(2)
                 print("¡Felicidades, encontraste el final feliz!")
             else:
@@ -50,6 +81,7 @@ def historia_aventura():
             time.sleep(2)
             print("Decides descansar un momento y luego continuar tu camino.")
             time.sleep(2)
+            jugador.ganar_experiencia(30)
             print("¡Lograste llegar a un pueblo seguro al final del camino!")
             time.sleep(2)
             print("¡Felicidades, encontraste el final feliz!")
@@ -70,6 +102,8 @@ def historia_aventura():
             print("Decidiste acercarte a la criatura.")
             time.sleep(2)
             print("La criatura resulta ser amigable y te ayuda a encontrar un puente cercano.")
+            jugador.inventario.append("Amuleto de la Criatura")
+            jugador.ganar_experiencia(40)
             time.sleep(2)
             print("¡Logras cruzar el río y llegar a un pueblo seguro!")
             time.sleep(2)
@@ -85,7 +119,10 @@ def historia_aventura():
     
     else:
         print("Decisión no válida. Fin de la aventura.")
+    
+    jugador.mostrar_estado()
 
 # Inicia la historia
 historia_aventura()
+
 

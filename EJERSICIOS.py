@@ -687,16 +687,109 @@ print("Mostrar la suma final:",soma)
 
 #ACTIVIDADE 51
 
+import re
+
 while True:
-    user_input = input("Introduce una palabra o número (máximo 8 caracteres): ")
-    if len(user_input) <= 8:
-        print(f"Has introducido: {user_input}")
-        break
+    entrada_usuario = input("Introduce uma Senha: ")
+    
+    if len(entrada_usuario) <= 8:
+        if (re.search("[A-Z]", entrada_usuario) and
+            re.search("[a-z]", entrada_usuario) and
+            re.search("[0-9]", entrada_usuario)):
+            print(f"Senha establecida: {entrada_usuario}")
+            break
+        else:
+            print("Error: El input debe contener al menos una letra mayúscula, una letra minúscula y un número.")
     else:
         print("Error: El input excede los 8 caracteres. Inténtalo de nuevo.")
 
-   
+
+
+#ACTIVIDADE 52
+
+
+import random
+numero_secreto = random.randint(1,100)
+tentativas = 0
+while tentativas < 5:
+   tentativas = int(input("Adivinhe o número entre 1 a 100: "))
+   tentativas += 1
+   if tentativas == numero_secreto:
+      print("Parabéns, voce acertou")
+      break
+   elif tentativas < numero_secreto:
+      print("Tente um número maior")
+   else:
+      print("Tente um número menor")
+      if tentativas == 5:
+         print("Você perdeu")
+
+
+
+#ACTIVIDADE 53
+
+saldo = 2000
+while True:
+   sacar = int(input("Digite o saldo acer retirado: "))
+   saldo -= sacar
+   if sacar <= saldo:
+      print(f"As saco {sacar}.Saldo disponible {saldo}")
+      break
+
+print("Exede el limite de dinero")
       
+
+
+#ACTIVIDADE 54
+while True:
+   palavra1 = input("Digite a primeira palavra:  ")
+   palavra2 = input("Digite a segunda palavra:  ")
+   if palavra1 == palavra2:
+      print("Palavras iguais")
+      break
+   else:
+      print("Palavras diferentes")
+
+
+#ACTIVIDADE 55
+import re
+
+while True:
+    entrada = input("Ingrese la longitud de la línea de hashes: ")
+    
+    if re.fullmatch("[0-9]+", entrada):
+        longitud = int(entrada)
+        break
+    else:
+        print("Entrada no válida. Por favor, ingrese un número entero.")
+
+print('#' * longitud)
+
+
+
+
+#ACTIVIDADE 57
+while True:
+    string = input("Digite uma string: ")
+    
+    if len(string) >= 20:
+        print(string[:20] + "...")
+    else:
+        print('*' * (20 - len(string)) + string)
+        break
+
+
+
+#ACTIVIDADE 58
+while True:
+    
+    palavra = input("Digite uma palavra: ")
+    tamanho_palavra = len(palavra)
+    espacos_laterais = (largura - tamanho_palavra) // 2
+    
+    print("*" * largura)
+    print("*" + " " * espacos_laterais + palavra + " " * (largura - tamanho_palavra - espacos_laterais - 2) + "*")
+    print("*" * largura)
 
 
 
