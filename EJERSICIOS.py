@@ -781,15 +781,83 @@ while True:
 
 
 #ACTIVIDADE 58
-while True:
+#while True:
     
-    palavra = input("Digite uma palavra: ")
-    tamanho_palavra = len(palavra)
-    espacos_laterais = (largura - tamanho_palavra) // 2
+#    palavra = input("Digite uma palavra: ")
+#    tamanho_palavra = len(palavra)
+#    espacos_laterais = (largura - tamanho_palavra) // 2
     
-    print("*" * largura)
-    print("*" + " " * espacos_laterais + palavra + " " * (largura - tamanho_palavra - espacos_laterais - 2) + "*")
-    print("*" * largura)
+#    print("*" * largura)
+#    print("*" + " " * espacos_laterais + palavra + " " * (largura - tamanho_palavra - espacos_laterais - 2) + "*")
+#    print("*" * largura)
+
+
+def tablero_ajedrez(tamano):
+    fila = 0
+    while fila < tamano:
+        columna = 0
+        linea = ""
+        while columna < tamano:
+            if (fila + columna) % 2 == 0:
+                linea += "Abuela"
+            else:
+                linea += "0"
+            columna += 1
+        print(linea)
+        fila += 1
+
+# Ejemplo de uso
+tablero_ajedrez(6)
+
+
+
+def caixa_hastag(nome):
+    print("#####", nome)
+
+def cumprimento_variaz_vezes(nome, vezes):
+    while vezes > 0:
+        caixa_hastag(nome)
+        vezes -= 1
+
+cumprimento_variaz_vezes("#####", 10)
+
+
+
+def caixa_hastag(nome):
+    print("##########", nome)
+
+def cumprimento_variaz_vezes(nome, vezes):
+    while vezes > 0:
+        caixa_hastag(nome)
+        vezes -= 1
+
+cumprimento_variaz_vezes("",10)
+
+
+
+
+def media_aritmetica(a, b, c):
+    media = (a + b + c) / 3
+    print("La media aritmética es:", media)
+
+media_aritmetica(4, 8, 12)
+
+
+
+def A(texto, vezes):
+    print(texto * vezes)
+
+
+A("Hola", 3)
+
+
+def c(tamano):
+    fila = "#" * tamano
+    contador = 0
+    while contador < tamano:
+        print(fila)
+        contador += 1
+c(5)
 
 
 

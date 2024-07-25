@@ -1,7 +1,12 @@
-saldo = 2000
-while True:
-   sacar = int(input("Digite o saldo acer retirado: "))
-   if sacar <= saldo:
-      print(f"As saco {sacar}")
-      break
+def caixa_hastag(nome):
+    print("##########", nome)
+
+def cumprimento_variaz_vezes(nome, vezes):
+    while vezes > 0:
+        caixa_hastag(nome)
+        vezes -= 1
+
+cumprimento_variaz_vezes("",10)
+
+
 
