@@ -72,12 +72,24 @@ lista2 = [10, 20, 30, 40, 50]
 lista_suma(lista1, lista2)
 
 
+sudoku = [
+    [9, 0, 0, 0, 8, 0, 3, 0, 0],
+    [0, 0, 0, 2, 5, 0, 7, 0, 0],
+    [0, 2, 0, 3, 0, 0, 0, 0, 4],
+    [0, 9, 4, 0, 0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 7, 3, 5, 6, 0],
+    [7, 0, 5, 0, 6, 0, 4, 0, 0],
+    [0, 0, 7, 8, 0, 3, 9, 0, 0],
+    [0, 0, 1, 0, 0, 0, 0, 0, 3],
+    [3, 0, 0, 0, 0, 0, 0, 0, 2]
+]
 
-
-
-def masi_caracteres(Abuela):
-    Abuela = "Lorem ipsum dolor sit amet, consectetur adipiscing elit picareta carecas."
-
-masi_caracteres.count("ca")
+for item in sudoku:
+    for itens in item:
+        if itens ==0:
+            print('_',end="")
+        else:
+            print(itens, end="")
+    print("")
 
 

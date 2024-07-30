@@ -177,3 +177,17 @@ print(anagramas("listen", "silent"))
 
 
 
+milista = [[5,6,7],[9,8],[4,6,1,8,9]]
+print(milista)
+print(milista[1])
+print(milista[1][0])
+
+
+
+
+
+pesosas = [["Betty",10,1.45],["Abuela",72,1.41],["LASL",4,12.4]]
+for pesoa in pesosas:
+    nome = pesoa[0]
+    idade = pesoa[1]
+    altura = pesoa[2]
