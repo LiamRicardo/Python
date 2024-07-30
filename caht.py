@@ -1,12 +1,6 @@
-def caixa_hastag(nome):
-    print("##########", nome)
-
-def cumprimento_variaz_vezes(nome, vezes):
-    while vezes > 0:
-        caixa_hastag(nome)
-        vezes -= 1
-
-cumprimento_variaz_vezes("",10)
+def masi_caracteres(Abuela):
+    Abuela = "Lorem ipsum dolor sit amet, consectetur adipiscing elit picareta ca."
+    
 
 
 

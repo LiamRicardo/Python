@@ -865,6 +865,90 @@ c(5)
 
 
 
+lista = [1, 2, 3, 4, 5]
+
+
+while True:
+    print("Lista actual:", lista)
+    indice = int(input("Introduce un índice (o -1 para salir): "))
+    if indice == -1:
+        break
+    if 0 <= indice < len(lista):
+
+        nuevo_numero = int(input("Introduce el nuevo número: "))
+        
+
+        lista[indice] = nuevo_numero
+    else:
+        print("Índice no válido. Inténtalo de nuevo.")
+
+print("Programa terminado. Lista final:", lista)
+
+
+
+
+
+
+lista = []
+while True:
+   numeros = input("Qoloque numeros aqui(pero si dijita -1 se serrara): ")
+
+   if -1 == numeros:
+      print(lista)
+      break
+   else:
+      numeros = input("Qoloque numeros aqui(pero si dijita -1 se serrara): ")
+
+print(lista)
+    
+      
+   
+
+   
+    
+
+listapro = []
+print(listapro)
+while True:
+    decicion = input("Selecione una acsion(add),(delet),(incertar) o (close): ")
+
+    if decicion == "add":
+        numero = int(input("Dijite un numero pues:"))
+        listapro.append(int(numero))
+        print(listapro)
+    elif decicion == "delet":
+        numero = int(input("Dijite el numero a cer borrado: "))
+        listapro.remove(int(numero))
+        print(listapro)
+    elif decicion == "incertar":
+        indice = int(input("Dijite un numero del indice: "))
+        numero = int(input("Dijite un numero a cer insetado: "))
+        listapro.insert(int(indice), int(numero))
+        print(listapro)
+    elif decicion == "close":
+        print(listapro)
+        break
+
+
+
+
+def eliminar_vocales(cadena):
+    vocales = "aeiouAEIOU"
+    resultado = ""
+    
+    for i in range(len(cadena)):
+        if cadena[i] not in vocales:
+            resultado += cadena[i]
+
+    print(resultado)
+cadena = "Esto es un ejemplo de cadena."
+eliminar_vocales(cadena)
+
+
+
+    
+   
+   
 
 
 

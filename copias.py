@@ -54,3 +54,126 @@ def cumprimento_variaz_vezes(nome, vezes):
         vezes -= 1
 
 cumprimento_variaz_vezes("Emily", 3)
+
+
+
+
+
+numeros = []
+numeros.apped(5)
+numeros.apped(10)
+numeros.apped(3)
+
+print(numeros)
+
+
+
+
+
+
+
+milista = [7, 4, 3, 2]
+
+print(milista[0])
+
+
+
+
+
+
+
+
+
+lista = []
+while True:
+    numeros = input("Coloque números aquí (pero si digita -1 se cerrará): ")
+    
+    if numeros == '-1':
+        break
+    lista.append(int(numeros))
+
+print("Lista final:", lista)
+
+
+
+
+
+
+
+listapro = []
+print(listapro)
+while True:
+    decicion = input("Selecione una acsion(add) o (delet)")
+
+    if decicion == "add":
+        numero = input(int("Dijite un numero pues:"))
+        listapro.append(int(numero))
+        print(listapro)
+        decicion = input("Selecione una acsion(add) o (delet)")
+    if decicion == "delet":
+        numero = input(int("Dijite el numero a cer borrado:"))
+        listapro.remove(int(numero))
+        print(listapro)
+        decicion = input("Selecione una acsion(add) o (delet)")
+    else:
+        print("FATAL ERROR")
+        break
+print(Listapro)
+
+
+
+
+
+
+
+
+
+
+
+
+m = [3, 4, 5, 5]
+m.sort()#esto ase que se enumer de menor para el mayor
+print(m)
+
+
+
+
+mx = [3, 4, 5, 5]
+m = sorted(mx)#esto ase que se enumer de menor para el mayor
+print(mx)
+print(m)
+
+
+
+
+
+
+
+
+
+
+for i in range(5, 4, 6,):
+    print(i)
+         
+N = int(input("Digite um inteiro positivo: "))
+while N <= 0:
+    print("Erro: o numeo deve ser positivo. ")
+else:
+    for i in range(-N, N + 1):
+        print(i)
+ 
+def lista_estrelas(lista):
+    for numero in lista:
+        print("*" * numero)
+ 
+def anagramas(str1, str2):
+    return sorted(str1) == sorted(str2)
+print(anagramas("listen", "silent"))
+
+
+
+
+
+
+
+
