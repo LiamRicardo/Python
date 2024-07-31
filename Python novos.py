@@ -93,3 +93,9 @@ for item in sudoku:
     print("")
 
 
+
+
+def jugeo_daVelha(mesa: list, x: int, y: int, caracter: str)
+    
+
+
